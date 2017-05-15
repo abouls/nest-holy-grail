@@ -45,9 +45,9 @@ header{
     display: flex;
     background-color: yellow;  
     justify-content: center;
-
      align-items: center;
      flex:1;
+     overflow:auto;
 }
 
 .newrighter{
@@ -71,6 +71,12 @@ header{
 }
 
 .HolyGrail {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.newHolyGrail {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
